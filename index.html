@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Menú Digital COCOBONGO — Pizzería & Hamburguesería en Tucumán, Argentina" />
+  <title>COCOBONGO — Menú Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══ HEADER ═══════════════════════════════════════════ -->
+  <header class="header">
+    <div class="header-bg-glow"></div>
+    <div class="logo-wrap">
+      <img 
+        src="img/img co.png" 
+        alt="Logo Coco Bongo - Pizza del horno a su mesa" 
+        style="width: clamp(180px, 65vw, 980px); height: auto; 
+           filter: drop-shadow(0 0 14px #ff660066) drop-shadow(0 0 30px #ff440033);
+           animation: pulse-glow-img 3.5s ease-in-out infinite;"
+      />
+      <div class="tagline">
+        Pizzas<span class="tagline-dot">•</span>Hamburguesas<span class="tagline-dot">•</span>Pepitos
+      </div>
+    </div>
+    <p class="updated">🔥 Escanea y disfruta &nbsp;|&nbsp; Actualizado Marzo 2026</p>
+  </header>
+
+  <!-- ═══ NAV ═══════════════════════════════════════════════ -->
+  <nav class="nav-pills" role="navigation" aria-label="Secciones del menú">
+    <a href="#pizzas"       class="nav-pill">🍕 Pizzas</a>
+    <a href="#hamburguesas" class="nav-pill">🍔 Hamburguesas</a>
+    <a href="#milanesas"    class="nav-pill">🥩 Milanesas</a>
+    <a href="#lomitos"      class="nav-pill">🥖 Lomitos</a>
+    <a href="#pepitos"      class="nav-pill">🥖 Pepitos</a>
+
+    <!-- Dropdown: Desayunos y Meriendas -->
+    <div class="nav-dropdown">
+      <button class="nav-pill nav-pill-drop" aria-expanded="false" aria-haspopup="true">
+        🌅 Desayunos y Meriendas <span class="drop-arrow">▾</span>
+      </button>
+      <div class="drop-menu" role="menu">
+        <a href="#desayunos" class="drop-item" role="menuitem">🌅 Desayunos &amp; Meriendas</a>
+        <a href="#avocados"  class="drop-item" role="menuitem">🥑 Avocados</a>
+        <a href="#fitness"   class="drop-item" role="menuitem">💪 Fitness</a>
+        <a href="#tostados"  class="drop-item" role="menuitem">🥪 Tostados</a>
+      </div>
+    </div>
+
+    <!-- Dropdown: Panadería y Cafetería -->
+    <div class="nav-dropdown">
+      <button class="nav-pill nav-pill-drop" aria-expanded="false" aria-haspopup="true">
+        ☕ Panadería y Cafetería <span class="drop-arrow">▾</span>
+      </button>
+      <div class="drop-menu" role="menu">
+        <a href="#panaderia" class="drop-item" role="menuitem">🥐 Panadería</a>
+        <a href="#cafeteria" class="drop-item" role="menuitem">☕ Cafetería</a>
+      </div>
+    </div>
+
+    <a href="#licuados" class="nav-pill">🥤 Licuados</a>
+  </nav>
+
+  <main class="container">
+
+    <!-- ═══ PIZZAS ════════════════════════════════════════ -->
+    <section id="pizzas" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title orange"><span class="section-emoji">🍕</span> PIZZAS ARTESANALES</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Muzarella -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Muzarella con queso derretido.jpg" alt="Pizza Muzarella con queso derretido" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">MUZARELLA</div>
+              <div class="card-desc">Salsa de tomate, muzarella entera, orégano y oliva. Clásico que nunca falla.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$12.800</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sencilla -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Sencilla.jpg" alt="Pizza Sencilla" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">SENCILLA</div>
+              <div class="card-desc">Tomate, muzarella y jamón cocido. Simple y deliciosa.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$13.800</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nápoles -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Nápoles con anchoas.jpg" alt="Pizza Nápoles con anchoas" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">NÁPOLES</div>
+              <div class="card-desc">Salsa de tomate, muzarella, aceitunas negras y anchoas. Auténtico sabor napolitano.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">14.900</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fugazza -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Fugazza con cebolla.jpg" alt="Pizza Fugazza con cebolla" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">FUGAZZA</div>
+              <div class="card-desc">Cebolla caramelizada, muzarella generosa, orégano y oliva. Clásico porteño.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$14.900</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Génova -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Génova con jamón y aceitunas.jpg" alt="Pizza Génova con jamón y aceitunas" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">GÉNOVA</div>
+              <div class="card-desc">Tomate, muzarella, jamón cocido, morrones rojos y aceitunas verdes.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$------</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Venecia -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Venecia especial.jpg" alt="Pizza Venecia especial" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">VENECIA</div>
+              <div class="card-desc">Tomate, muzarella, jamón, morrones y huevo duro. Colorida y sabrosa.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$15.900</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Florencia -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Florencia con espinaca.jpg" alt="Pizza Florencia con espinaca" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">FLORENCIA</div>
+              <div class="card-desc">Tomate, muzarella, espinaca salteada, ajo y oliva. Italiana y aromática.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$15.900</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Full Pepperoni -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Full Pepperoni.jpg" alt="Pizza Full Pepperoni" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">FULL PEPPERONI</div>
+              <div class="card-desc">Tomate, doble mozarella y generosa cantidad de pepperoni picante.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$15.900</div>
+              <span class="card-badge badge-hot">🔥 HOT</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Gustos -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza 4 Gustos cuartos distintos.jpg" alt="Pizza 4 Gustos cuartos distintos" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">4 GUSTOS</div>
+              <div class="card-desc">Cuatro sabores en una: jamón, aceitunas, morrones y muzarella. Para todos.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$15.900</div>
+              <span class="card-badge badge-best">★ BEST</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Super -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza_Super.jpg" alt="Pizza Super cargada" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">SUPER</div>
+              <div class="card-desc">Tomate, muzarella, jamón, salami, morrones, aceitunas y huevo. Máximo sabor.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$16.400</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Roma -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Roma con salami.jpg" alt="Pizza Roma con salami" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">ROMA</div>
+              <div class="card-desc">Tomate, muzarella, salami, ají picante y aceitunas negras. Con carácter.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$16.400</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cocobongo I -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Cocobongo especial de la casa.jpg" alt="Pizza Cocobongo especial de la casa" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">COCOBONGO I</div>
+              <div class="card-desc">Nuestra estrella: tomate, muzarella, pepperoni, cebolla caramelizada y chimichurri.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$16.400</div>
+              <span class="card-badge badge-best">★ CASA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cocobongo II -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza Cocobongo II versión especial.jpg" alt="Pizza Cocobongo II versión especial" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">COCOBONGO II</div>
+              <div class="card-desc">Muzarella doble, jamón serrano, rúcula fresca y parmesano rallado.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$16.400</div>
+              <span class="card-badge badge-new">✦ NEW</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- París -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza París con champiñones.jpg" alt="Pizza París con champiñones" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">PARIS</div>
+              <div class="card-desc">Tomate, muzarella, champiñones salteados, cebolla y crema de ajo.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$16.400</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Quesos -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza 4 Quesos abundante.jpg" alt="Pizza 4 Quesos abundante" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">4 QUESOS</div>
+              <div class="card-desc">Muzarella, cheddar, provolone y parmesano. Para los amantes del queso.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$17.000</div>
+              <span class="card-badge badge-best">★ BEST</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ternera -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pizza de Ternera premium.jpg" alt="Pizza de Ternera premium" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">TERNERA</div>
+              <div class="card-desc">Tomate, muzarella y tiernísima carne de ternera al horno. Premium.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$17.000</div>
+              <span class="card-badge badge-hot">🥩 PRIME</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /items-grid pizzas -->
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ HAMBURGUESAS ══════════════════════════════════ -->
+    <section id="hamburguesas" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title red"><span class="section-emoji">🍔</span> HAMBURGUESAS PREMIUM</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Clásica Beef -->
+        <div class="item-card card-v reveal">
+          <div class="card-img-wrap">
+            <img src="img/Hamburguesa Clásica Beef con queso.jpg" alt="Hamburguesa Clásica Beef con queso" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">CLÁSICA BEEF</div>
+              <div class="card-desc">Medallón de carne 100% vacuna, lechuga, tomate, cebolla, cheddar y salsa especial. El original de la casa.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Simple</span><span class="price-variant-val">$11.000</span></div>
+              <div class="price-variant"><span class="price-variant-label">Doble</span><span class="price-variant-val">$12.400</span></div>
+              <div class="price-variant"><span class="price-variant-label">Triple</span><span class="price-variant-val">$13.800</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Caribeña -->
+        <div class="item-card card-v reveal">
+          <div class="card-img-wrap">
+            <img src="img/Hamburguesa Caribeña con piña.jpg" alt="Hamburguesa Caribeña con piña" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">CARIBEÑA</div>
+              <div class="card-desc">Carne vacuna, piña grillada, queso cheddar, lechuga, tomate y mayonesa de maracuyá.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Simple</span><span class="price-variant-val">$10.500</span></div>
+              <div class="price-variant"><span class="price-variant-label">Doble</span><span class="price-variant-val">$11.500</span></div>
+              <div class="price-variant"><span class="price-variant-label">Triple</span><span class="price-variant-val">$12.500</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Americana -->
+        <div class="item-card card-v reveal">
+          <div class="card-img-wrap">
+            <img src="img/Hamburguesa Americana con huevo.jpg" alt="Hamburguesa Americana con huevo" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">AMERICANA</div>
+              <div class="card-desc">Carne vacuna, bacon crocante, huevo frito, cheddar, lechuga, tomate y kétchup artesanal.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Simple</span><span class="price-variant-val">$11.000</span></div>
+              <div class="price-variant"><span class="price-variant-label">Doble</span><span class="price-variant-val">$12.400</span></div>
+              <div class="price-variant"><span class="price-variant-label">Triple</span><span class="price-variant-val">$14.000</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Full House -->
+        <div class="item-card card-v reveal">
+          <div class="card-img-wrap">
+            <img src="img/Hamburguesa Full House cargada.jpg" alt="Hamburguesa Full House cargada" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">FULL HOUSE</div>
+              <div class="card-desc">Carne, bacon, cheddar doble, pepino agridulce, cebolla crispy, lechuga y salsa BBQ.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Simple</span><span class="price-variant-val">$11.800</span></div>
+              <div class="price-variant"><span class="price-variant-label">Doble</span><span class="price-variant-val">$13.200</span></div>
+              <div class="price-variant"><span class="price-variant-label">Triple</span><span class="price-variant-val">$14.600</span></div>
+            </div>
+            <div style="margin-top:8px"><span class="card-badge badge-best">★ TOP VENTAS</span></div>
+          </div>
+        </div>
+
+        <!-- Burgers Pizza -->
+        <div class="item-card card-v reveal">
+          <div class="card-img-wrap">
+            <img src="img/Burgers Pizza con salsa y mozzarella.jpg" alt="Burgers Pizza con salsa y mozzarella" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">BURGERS PIZZA</div>
+              <div class="card-desc">Nuestra fusión estrella: carne, salsa de tomate, muzarella fundida, pepperoni y orégano.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Simple</span><span class="price-variant-val">$9.400</span></div>
+              <div class="price-variant"><span class="price-variant-label">Doble</span><span class="price-variant-val">$12.800</span></div>
+              <div class="price-variant"><span class="price-variant-label">Triple</span><span class="price-variant-val">$14.500</span></div>
+            </div>
+            <div style="margin-top:8px"><span class="card-badge badge-new">✦ FUSIÓN</span></div>
+          </div>
+        </div>
+
+        <!-- King Beef -->
+        <div class="item-card card-v reveal">
+          <div class="card-img-wrap">
+            <img src="img/King Beef hamburguesa grande premium.jpg" alt="King Beef hamburguesa grande premium" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">KING BEEF</div>
+              <div class="card-desc">Medallón XXL de carne angus, queso suizo, cebolla grillada, rúcula y salsa de mostaza-miel.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Simple</span><span class="price-variant-val">$10.800</span></div>
+              <div class="price-variant"><span class="price-variant-label">Doble</span><span class="price-variant-val">$12.000</span></div>
+              <div class="price-variant"><span class="price-variant-label">Triple</span><span class="price-variant-val">$13.800</span></div>
+            </div>
+            <div style="margin-top:8px"><span class="card-badge badge-hot">🔥 KING SIZE</span></div>
+          </div>
+        </div>
+
+        <!-- Byg Crispy -->
+        <div class="item-card card-v reveal">
+          <div class="card-img-wrap">
+            <img src="img/Byg Crispy pollo crocante.jpg" alt="Byg Crispy pollo crocante" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">BYG CRISPY</div>
+              <div class="card-desc">Pollo crocante apanado, cheddar, coleslaw casero, pepino y salsa sriracha mayo.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Simple</span><span class="price-variant-val">$10.800</span></div>
+              <div class="price-variant"><span class="price-variant-label">Doble</span><span class="price-variant-val">$</span>12.000</div>
+              <div class="price-variant"><span class="price-variant-label">Triple</span><span class="price-variant-val">$13.800</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blue -->
+        <div class="item-card card-v reveal">
+          <div class="card-img-wrap">
+            <img src="img/Hamburguesa Blue con queso azul.jpg" alt="Hamburguesa Blue con queso azul" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">BLUE</div>
+              <div class="card-desc">Carne vacuna, queso azul fundido, cebolla caramelizada, nueces tostadas y rúcula.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Simple</span><span class="price-variant-val">$12.600</span></div>
+              <div class="price-variant"><span class="price-variant-label">Doble</span><span class="price-variant-val">$14.000</span></div>
+              <div class="price-variant"><span class="price-variant-label">Triple</span><span class="price-variant-val">$15.600</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Harley -->
+        <div class="item-card card-v reveal">
+          <div class="card-img-wrap">
+              <img src="img/Harley burger con jalapeños.jpg" alt="Harley burger con jalapeños" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">HARLEY</div>
+              <div class="card-desc">Carne + bacon + jalapeños picantes + cheddar ahumado + cebolla crispy + salsa barbacoa.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Simple</span><span class="price-variant-val">$9.100</span></div>
+              <div class="price-variant"><span class="price-variant-label">Doble</span><span class="price-variant-val">$10.200</span></div>
+            </div>
+            <div style="margin-top:8px"><span class="card-badge badge-hot">🌶️ PICANTE</span></div>
+          </div>
+        </div>
+
+        <!-- Bacon pro max -->
+        <div class="item-card card-v reveal">
+          <div class="card-img-wrap">
+            <img src="img/Bacon%20Pro%20Max.jpg" alt="Bacon Pro Max" loading="lazy" onerror="this.src='img/Bacon%20Pro%20Max.jpeg';this.onerror=null;" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">BACON PRO MAX</div>
+              <div class="card-desc">Pan + Carne + Cheddar ahumado + Mermelada de panceta + mayonesa.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Doble</span><span class="price-variant-val">$12.500</span></div>
+              <div class="price-variant"><span class="price-variant-label">Triple</span><span class="price-variant-val">$14.000</span></div>
+            </div>
+            <div style="margin-top:8px"><span class="card-badge badge-hot">🌶️ PICANTE</span></div>
+          </div>
+        </div>
+
+      </div><!-- /items-grid burgers -->
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ MILANESAS ════════════════════════════════════ -->
+    <section id="milanesas" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title yellow"><span class="section-emoji">🥩</span> MILANESAS</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Milanesa Napolitana -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/milanesa-napolitana.jpg" alt="Milanesa Napolitana con salsa de tomate y queso" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">MILANESA NAPOLITANA</div>
+              <div class="card-desc">Milanesa crujiente con salsa de tomate, jamón y muzarella gratinada al horno.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">1 pers</span><span class="price-variant-val" style="color:var(--yellow)">$11.000</span></div>
+              <div class="price-variant"><span class="price-variant-label">2 pers</span><span class="price-variant-val" style="color:var(--yellow)">$17.000</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Milanesa Americana -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/milanesa-amaericana.jpg" alt="Milanesa Americana con papas fritas" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">MILANESA AMERICANA</div>
+              <div class="card-desc">Milanesa extra crocante con huevo frito, bacon, cheddar y salsa americana.</div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">1 pers</span><span class="price-variant-val" style="color:var(--yellow)">$13.000</span></div>
+              <div class="price-variant"><span class="price-variant-label">2 pers</span><span class="price-variant-val" style="color:var(--yellow)">$18.500</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sandwich Milanesa -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Sandwich de Milanesa en pan artesanal.jpg" alt="Sandwich de Milanesa en pan artesanal" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">SANDWICH MILANESA</div>
+              <div class="card-desc">
+                <strong style="color:var(--offwhite)">Común:</strong> Pan, milanesa, lechuga, tomate y mayo.<br/>
+                <strong style="color:var(--offwhite)">Especial:</strong> + queso, jamón y pepinos.
+              </div>
+            </div>
+            <div class="price-variants">
+              <div class="price-variant"><span class="price-variant-label">Común</span><span class="price-variant-val" style="color:var(--yellow)">$9.500</span></div>
+              <div class="price-variant"><span class="price-variant-label">Especial</span><span class="price-variant-val" style="color:var(--yellow)">$10.500</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ LOMITOS ═══════════════════════════════════════ -->
+    <section id="lomitos" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title cyan"><span class="section-emoji">🥖</span> LOMITOS</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Lomito Común -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Lomito clásico argentino en pan.jpg" alt="Lomito clásico argentino en pan" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">LOMITO COMÚN</div>
+              <div class="card-desc">Lomo tierno en pan artesanal, lechuga, tomate, mayonesa y mostaza.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price cyan-price">$11.500</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lomito Especial -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Lomito especial con queso y huevo.jpg" alt="Lomito especial con queso y huevo" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">LOMITO ESPECIAL</div>
+              <div class="card-desc">Lomo, queso cheddar, jamón, huevo frito, lechuga, tomate y salsa especial de la casa.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price cyan-price">$12.500</div>
+              <span class="card-badge badge-best">★ ESPECIAL</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ PEPITOS ═══════════════════════════════════════ -->
+    <section id="pepitos" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title orange"><span class="section-emoji">🥖</span> PEPITOS VENEZOLANOS</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Pepito Clásico -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pepito venezolano clásico.jpg" alt="Pepito venezolano clásico" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">PEPITO CLÁSICO</div>
+              <div class="card-desc">Pan de pepito, carne de res mechada, queso blanco, guasacaca y salsas.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$11.000</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pepito Primavera -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pepito Primavera con vegetales frescos.jpg" alt="Pepito Primavera con vegetales frescos" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">PEPITO PRIMAVERA</div>
+              <div class="card-desc">Carne + aguacate, lechuga, tomate, cebolla morada y vinagreta de cilantro.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$12.000</div>
+              <span class="card-badge badge-new">✦ FRESCO</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pepito Gratinado -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pepito Gratinado con queso fundido.jpg" alt="Pepito Gratinado con queso fundido" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">PEPITO GRATINADO</div>
+              <div class="card-desc">Carne mechada, queso blanco y cheddar gratinados, pimientos salteados y guasacaca.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$13.000</div>
+              <span class="card-badge badge-hot">🔥 GRATINADO</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pepito 3 Sabores Gratinado -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pepito 3 Sabores Gratinado especial.jpg" alt="Pepito 3 Sabores Gratinado especial" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">PEPITO 3 SABORES GRATINADO</div>
+              <div class="card-desc">La cúspide: tres carnes (res, pollo y cerdo) + triple queso gratinado y salsas venezolanas.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$14.000</div>
+              <span class="card-badge badge-best">★ ESTRELLA</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ DESAYUNOS / MERIENDAS ═══════════════════════════ -->
+    <section id="desayunos" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title cyan"><span class="section-emoji">🌅</span> DESAYUNOS &amp; MERIENDAS</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Clásico -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Desayuno Clásico.jpg" alt="Desayuno Clásico" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">CLÁSICO</div>
+              <div class="card-desc">2 tortillas o media luna + infusión.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price cyan-price">$4.500</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Litgh -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Desayuno Litgh.jpg" alt="Desayuno Litgh" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">LITGH</div>
+              <div class="card-desc">2 tostadas, mermelada, queso, vaso de jugo, yogurt + infusión.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price cyan-price">$7.000</div>
+              <span class="card-badge badge-new">✦ LIGHT</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brunch Venezolano -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=300&q=80" alt="Brunch Venezolano" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">BRUNCH VENEZOLANO <small style="font-size:0.65rem;color:var(--muted)">(2 personas)</small></div>
+              <div class="card-desc">2 arepas a la plancha, jamón, queso, huevo revuelto, palta + 2 postres + 2 infusiones.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price cyan-price">$18.000</div>
+              <span class="card-badge badge-best">★ PARA DOS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brunch Argentino -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?w=300&q=80" alt="Brunch Argentino" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">BRUNCH ARGENTINO <small style="font-size:0.65rem;color:var(--muted)">(para compartir)</small></div>
+              <div class="card-desc">1 tostado de jamón y queso, 2 infusiones, 2 tortillas, 2 mafaldas, 1 licuado.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price cyan-price">$20.000</div>
+              <span class="card-badge badge-best">★ COMPARTIR</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sub: Avocados -->
+      <div id="avocados" class="section-header" style="margin-top:28px;">
+        <div class="section-line"></div>
+        <h3 class="section-title yellow" style="font-size:clamp(0.85rem,3.5vw,1.1rem)"><span class="section-emoji">🥑</span> AVOCADOS</h3>
+        <div class="section-line right"></div>
+      </div>
+      <div class="items-grid">
+
+        <!-- Tranqui -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Avocado Tranqui.jpg" alt="Avocado Tranqui" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">TRANQUI</div>
+              <div class="card-desc">2 tostadas, huevo revuelto, palta, tomate cherry + infusión.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price yellow-price">$7.000</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Intermedio -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Avocado Intermedio.jpg" alt="Avocado Intermedio" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">INTERMEDIO</div>
+              <div class="card-desc">2 tostadas, huevo, palta, panceta crocante, verdeo + infusión + yogurt.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price yellow-price">$8.000</div>
+              <span class="card-badge badge-hot">🔥 CROCANTE</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blue -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Avocado Blue.jpg" alt="Avocado Blue" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">BLUE</div>
+              <div class="card-desc">2 tostadas, palta, queso azul, tomates cherry y queso crema.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price yellow-price">$8.000</div>
+              <span class="card-badge badge-new">✦ GOURMET</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ FITNESS ════════════════════════════════════════ -->
+    <section id="fitness" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title green"><span class="section-emoji">💪</span> FITNESS</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Fitness Opción 1 -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Fitness Opción 1 Panqueques de avena.jpg" alt="Fitness Opción 1 Panqueques de avena" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">OPCIÓN 1</div>
+              <div class="card-desc">2 panqueques de avena, miel, frutos de estación, mini batido de proteína + infusión.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price green-price">Consultar</div>
+              <span class="card-badge badge-cafe">💪 FIT</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fitness Opción 2 -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Fitness Opción 2 Bowl de frutas.jpg" alt="Fitness Opción 2 Bowl de frutas" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">OPCIÓN 2</div>
+              <div class="card-desc">Bowl de frutas, 1 tostada, queso por salud, infusión + mini batido de proteínas.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price green-price">Consultar</div>
+              <span class="card-badge badge-cafe">💪 FIT</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ PANADERÍA ═════════════════════════════════════ -->
+    <section id="panaderia" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title yellow"><span class="section-emoji">🥐</span> PANADERÍA</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Facturas -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Facturas de panadería.jpg" alt="Facturas de panadería" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">FACTURAS</div>
+              <div class="card-desc">Facturas artesanales recién horneadas del día.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price yellow-price">$900</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Medialunas -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Medialunas de manteca.jpg" alt="Medialunas de manteca" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">MEDIALUNAS</div>
+              <div class="card-desc">Medialunas de manteca acarameladas, tiernas y esponjosas.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price yellow-price">$700</div>
+              <span class="card-badge badge-best">★ CLÁSICO</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tortillas -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Tortillas artesanales.jpg" alt="Tortillas artesanales" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">TORTILLAS</div>
+              <div class="card-desc">Tortillas artesanales, ideales para acompañar café o infusión.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price yellow-price">$500</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mafalda -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Mafalda_pan_artesanal.jpg" alt="Mafalda pan artesanal" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">MAFALDA</div>
+              <div class="card-desc">Pan mafalda esponjoso, perfecto para tostados y sándwiches.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price yellow-price">$2.500</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cachito Venezolano -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Cachito venezolano.jpg" alt="Cachito venezolano" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">CACHITO VENEZOLANO</div>
+              <div class="card-desc">Pan cachito venezolano tradicional, suave y aromático.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price yellow-price">Consultar</div>
+              <span class="card-badge badge-new">✦ VENEZOLANO</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ TOSTADOS ═══════════════════════════════════════ -->
+    <section id="tostados" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title orange"><span class="section-emoji">🥪</span> TOSTADOS</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Jamón y Queso -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Tostado Jamón y Queso.jpg" alt="Tostado Jamón y Queso" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">JAMÓN Y QUESO</div>
+              <div class="card-desc">Tostado clásico de jamón cocido y queso, bien gratinado.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$5.000</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ternera y Queso -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Tostado Ternera y Queso.jpg" alt="Tostado Ternera y Queso" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">TERNERA Y QUESO</div>
+              <div class="card-desc">Tostado con ternera tierna y queso fundido.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$6.500</div>
+              <span class="card-badge badge-hot">🔥 ESPECIAL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jamón Queso y Tomate -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Tostado Jamón Queso y Tomate.jpg" alt="Tostado Jamón Queso y Tomate" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">JAMÓN, QUESO Y TOMATE</div>
+              <div class="card-desc">Jamón cocido, queso y rodajas frescas de tomate.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$5.500</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ternera Queso y Verdura -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Tostado Ternera Queso y Verdura.jpg" alt="Tostado Ternera Queso y Verdura" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">TERNERA, QUESO Y VERDURA</div>
+              <div class="card-desc">Ternera, queso fundido y verdura fresca de estación.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">$6.500</div>
+              <span class="card-badge badge-new">✦ VERDE</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ LICUADOS / LIMONADA ═══════════════════════════ -->
+    <section id="licuados" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title cyan"><span class="section-emoji">🥤</span> LICUADOS &amp; LIMONADA</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Banana -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Licuado de Banana.jpg" alt="Licuado de Banana" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">BANANA</div>
+              <div class="card-desc">Licuado de banana. A elegir: al agua / con leche / con jugo.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price cyan-price">$4.000</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frutilla -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Licuado de Frutilla.jpg" alt="Licuado de Frutilla" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">FRUTILLA</div>
+              <div class="card-desc">Licuado de frutilla. A elegir: al agua / con leche / con jugo.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price cyan-price">$4.000</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Durazno -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Licuado de Durazno.jpg" alt="Licuado de Durazno" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">DURAZNO</div>
+              <div class="card-desc">Licuado de durazno. A elegir: al agua / con leche / con jugo.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price cyan-price">$4.000</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Limonada -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Limonada fresca.jpg" alt="Limonada fresca" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">LIMONADA</div>
+              <div class="card-desc">Limonada fresca y bien cítrica, preparada al momento.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price cyan-price">$4.000</div>
+              <span class="card-badge badge-new">✦ FRESCA</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ CAFETERÍA ══════════════════════════════════════ -->
+    <section id="cafeteria" class="section reveal">
+      <div class="section-header">
+        <div class="section-line"></div>
+        <h2 class="section-title green"><span class="section-emoji">☕</span> CAFETERÍA</h2>
+        <div class="section-line right"></div>
+      </div>
+
+      <div class="items-grid">
+
+        <!-- Café Doble -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/CAFÉ DOBLE.jpg" alt="Café Doble" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">CAFÉ DOBLE</div>
+              <div class="card-desc">Doble dosis de café, intenso y reconfortante.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price green-price">$4.300</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jarrita -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Jarrita de café con leche.jpg" alt="Jarrita de café con leche" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">JARRITA</div>
+              <div class="card-desc">Café con leche servido en jarrita. Abundante y cremoso.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price green-price">$3.500</div>
+              <span class="card-badge badge-best">★ CLÁSICO</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pocillo -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Pocillo de café.jpg" alt="Pocillo de café" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">POCILLO</div>
+              <div class="card-desc">Café en pocillo, concentrado y aromático. El corto perfecto.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price green-price">$2.500</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Submarino -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Submarino con chocolate.jpg" alt="Submarino con chocolate" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">SUBMARINO</div>
+              <div class="card-desc">Leche bien caliente con una barra de chocolate para derretir. El clásico argentino.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price green-price">Consultar</div>
+              <span class="card-badge badge-best">★ CLÁSICO</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mocca -->
+        <div class="item-card card-h reveal">
+          <div class="card-img-wrap">
+            <img src="img/Mocca.jpg" alt="Mocca" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div>
+              <div class="card-name">MOCCA</div>
+              <div class="card-desc">Combinación perfecta de café y chocolate. Dulce e intenso a la vez.</div>
+            </div>
+            <div class="card-footer">
+              <div class="card-price green-price">Consultar</div>
+              <span class="card-badge badge-cafe">✦ ESPECIAL</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- /container -->
+
+  <!-- ═══ FOOTER ════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-logo">COCOBONGO</div>
+    <div class="footer-info">
+      <span>Tucumán, Argentina</span> &nbsp;·&nbsp; Delivery &amp; Local<br/>
+      📞 Pedidos por WhatsApp<br/>
+      📍 Menú actualizado <span>Marzo 2026</span>
+    </div>
+    <div class="footer-ig">📸 @cocobongo</div>
+    <div class="footer-disclaimer">Los precios y disponibilidad pueden variar. Contacta para confirmar.</div>
+    <div class="footer-credits">Diseñado y desarrollo por Douglas Romero <a href="https://wa.me/+5493865230924?text=Hola%20COCOBONGO!%20Quiero%20hacer%20un%20pedido%20%F0%9F%8D%95%F0%9F%8D%94" target="_blank" rel="noopener noreferrer">douglasromero.com.ar</a></div>
+    <div class="footer-copy">Menú digital QR · Cocobongo © 2026</div>
+</footer>
+
+  <!-- ═══ WHATSAPP FLOATING BTN ═══════════════════════════ -->
+  <a
+    href="https://wa.me/+5493865230924?text=Hola%20COCOBONGO!%20Quiero%20hacer%20un%20pedido%20%F0%9F%8D%95%F0%9F%8D%94"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="wa-btn"
+    aria-label="Pedir por WhatsApp"
+  >
+    <span class="wa-icon">💬</span> Pedir Ahora
+  </a>
+
+  <script src="menu.js"></script>
+</body>
+</html>
